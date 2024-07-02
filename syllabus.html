@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>My Project</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <title>My Project</title>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 30px;
+    }
+    .table tr a{
+      text-decoration: none;
+    }
+    .bg-light h3{
+      text-align: center;
+      color: hsl(36, 96%, 37%);
+      font-weight: 600;
+      font-style: oblique;
+    }
+    .school-board{
+      background-image: url(boad.png);
+      height: auto;
+      background-repeat: no-repeat;
+    }
+    .school-update h4{
+    text-align: center;
+    color: rgb(100, 12, 2);
+    font-weight: 700;
+    }
+    .school-update p{
+      text-align: center;
+      color: azure;
+    }
+      ul{
+        list-style: none;
+       
+      }
+      ul li{
+        text-align: center;
+        align-items: center;
+
+
+      }
+      ul li a{
+        text-decoration: none;
+        color: black;
+      }
+  </style>
+  </style>
+</head>
+
+<body class="container-fluid bg-light">
+  <nav class="navbar navbar-expand-lg" style="background-color: rgb(232, 205, 171);">
+    <button data-bs-target="#menu" data-bs-toggle="collapse" class="navbar-toggler" aria-expanded="false">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <img src="logo Image.jpg" width="100px" height="100px"
+      class="d-inline-block align-text-top rounded rounded-circle ms-3">
+    <div class="h2 mx-4">BPM Public School</div>
+    <div class="navbar-collapse collapse" id="menu">
+      <ul class="navbar-nav mr-auto ">
+        <li class="nav-item"><a class="nav-link active" href="Index.html">Home</a></li>
+        <li class="nav-item dropdown"><a class="nav-link btn dropdown-toggle" href="#" role="button"
+            data-bs-toggle="dropdown">About Us</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="About.html">Welcome to BPM</a></li>
+            <li class=><a class="dropdown-item" href="Diractor.html">Director's Note</a></li>
+            <li class=><a class="dropdown-item" href="Faculty.html">Faculty</a></li>
+            <li class=><a class="dropdown-item" href="play.html">Play Area</a></li>
+          </ul>
+        <li class="nav-item"><a class="nav-link" href="gallary.html">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link" href="syllabus.html">syllabus</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <main id="main">
+    <!--Featured section========-->
+    <section id="--Featured" class="featured">
+     <div class="container">
+      <div class="row pt-4">
+        <div class="col-lg-6">
+        <!--About section====  -->
+        <div class="container shadow">
+          <div class="section-title">
+            <h4 style="text-align: center; color: rgb(233, 145, 12);">"Syllabus 2024-2025"</h4>
+          </div>
+          <table class="table table-striped table-hover">
+           <tbody>
+            <tr>
+              <td colspan="2"><a href="">Nursery</a></td>
+            </tr>
+            <tr>
+              <td colspan="2"><a href="">LKG</a></td>
+            </tr> 
+            <tr>
+              <td colspan="2"><a href="">UKG</a></td>
+            </tr>
+             <tr>
+              <td colspan="2"><a href="">CLASS-1</a></td>
+            </tr>
+            <tr>
+              <td colspan="2"><a href="">CLASS-2</a></td>
+            </tr>
+            <tr>
+              <td colspan="2"><a href="">CLASS-3</a></td>
+            </tr>
+            <tr>
+              <td colspan="2"><a href="">CLASS-4</a></td>
+            </tr>
+            <tr>
+              <td colspan="2"><a href="">CLASS-5</a></td>
+            </tr>
+            <tr>
+              <td colspan="2"><a href="">CLASS-6</a></td>
+            </tr>
+           </tbody>
+          </table>
+        </div>
+      </div>
+        <div class="col-lg-6 ps-4 ">
+          <div class="content-wrapper-right">
+            <h3>School Update</h3>
+            <div class="school-board ms-4">
+              <div class="school-update">
+                <marquee direction="up" onmousemove="stop();" onmouseout="start();" scrollamount="5">
+                  <h4 class="note">Dear Parents attention Please</h4>
+                  <h4>Session 2024</h4>
+                  <p>New session started: <br> from 22nd of June 2024 Timing Details: <br> Morning at 06:00 AM to 10:45 AM</p>
+                    <h4>Admission Open</h4>
+                    <p>Admission open For nursery to class-5th
+                    <br> All Bookes and Copy Available <br><br> Thank You !</p>
+                </marquee>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
+    </section>
+  </main>
+  <footer class="container-fluid pt-4" style="background-color:rgb(232, 205, 171); box-shadow: 0 0 4px 8px rgb(239, 238, 238);">
+    <div class="footer-top mt-4" style=" background-color: #e0dddd; border-radius: 5px;">
+      <div class="row pt-1">
+        <div class="col-lg-2 col-md-6 align-content-center p-4">
+          <h4 style="text-align: center; color: rgba(242, 163, 27, 0.946);">Useful Links</h4>
+          <ul>
+            <li><i class="bx bx-chevron- align-content-center"></i> <a href="#">Home</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Teachers</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 align-content-center p-4">
+          <h4 style="text-align: center; color: rgba(242, 163, 27, 0.946);">Our Services</h4>
+          <ul>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Play Ground Area</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Classrooms</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Sckilled Teachers</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Sports Facilities</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Computer Labs</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 pt-4 d-inline-block align-content-center" >
+          <h4 style="text-align: center ;color:rgba(242, 163, 27, 0.946)">Contact Us</h4>
+          <p style="text-align: center;">
+            Near Kandi thana,Dabriya Road Garhwa <br>
+            BPM Public School Kandi State: Jharkhand, pine code: 822122<br>
+            <strong>Phone:</strong>7481817676<br>
+            <strong>Email:</strong>bpmpublicschool1@gmail.com
+            <br>
+          </p>
+        </div>
+        <div class="col-lg-4 col-md-6 align-content-center pt-4 mt-">
+          <h4 style="text-align: center; color: rgba(242, 163, 27, 0.946);">Our Location</h4>
+          <iframe class="pb-3 d-inline-block; align-content: center;" style="width: 300px; height: auto;"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3631.090098817563!2d83.75814991017106!3d24.48233487808698!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398c3d541f91702b%3A0x3a13e43f762ba3dc!2sBPM%20Public%20School!5e0!3m2!1sen!2sin!4v1719745366100!5m2!1sen!2sin"
+            width="350" height="150" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+  </div>
+    <div class="container-fluid p-1">
+      <div class="mt-4 bg-secondary" style="text-align: center; border-radius: 2px; color: hsl(0, 0%, 95%);">
+        &copy; Copyright <strong>
+          <span>BPM Public School Kandi</span>
+        </strong> All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/bethany-free-onepage-bootstrap-theme/ -->
+      </div>
+    </div>
+    </div>
+  <!-- End Footer -->
+</footer>
+
+
+</body>
+
+</html>
